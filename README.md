@@ -12,7 +12,7 @@
 |_|   |_| \_\\___/ \___/|_____\____| |_|  
 ```
 
-Description
+`Description`
 This readme if a project starter for a basic setup of a project that works with various dependencies. Which contains a cmake directory
 that handles different cmake modules for linking opengl, opencv, ffmpeg, and other libraries to work with these specific projects. This starter
 project also configures an easier way to include specific files from specific directories, as well.
