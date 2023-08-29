@@ -51,6 +51,7 @@ include_directories(
 set(
     all_src
     ${PROJECT_SOURCE_DIR}/${PROJECT_INCLUDE_DIR}/src/common/Utils.cpp
+    ${PROJECT_SOURCE_DIR}/${PROJECT_INCLUDE_DIR}/src/core/Application.cpp
 )
 
 
@@ -73,5 +74,5 @@ add_definitions(-DERESOURCE="assets")
 # Hence, these are the modules needed!
 include(${PROJECT_SOURCE_DIR}/cmake/glfw.cmake)
 include(${PROJECT_SOURCE_DIR}/cmake/opencv.cmake)
-include(${PROJECT_SOURCE_DIR}/cmake/assimp.cmake)
+# include(${PROJECT_SOURCE_DIR}/cmake/assimp.cmake)
 include(${PROJECT_SOURCE_DIR}/cmake/ffmpeg.cmake)
